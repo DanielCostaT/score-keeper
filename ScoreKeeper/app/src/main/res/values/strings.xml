@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Score Keeper</string>
+    <string name="team_a">Cavaliers</string>
+    <string name="score_a">0</string>
+    <string name="team_b">Thunder</string>
+    <string name="score_b">0</string>
+    <string name="free_shot">Free Throw</string>
+    <string name="double_shot">+2 points</string>
+    <string name="triple_shot">+3 points</string>
+    <string name="reset">Reset</string>
+</resources>
