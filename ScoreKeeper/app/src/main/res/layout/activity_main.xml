@@ -9,8 +9,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginLeft="@dimen/layout_elements_margin"
+        android:layout_marginRight="@dimen/layout_elements_margin"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -51,9 +51,9 @@
         <View
             android:layout_width="1dp"
             android:layout_height="match_parent"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginLeft="@dimen/layout_elements_margin"
+            android:layout_marginRight="@dimen/layout_elements_margin"
+            android:layout_marginTop="@dimen/layout_elements_margin"
             android:background="@android:color/darker_gray" />
 
         <LinearLayout
@@ -97,7 +97,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_margin="16dp"
+        android:layout_margin="@dimen/layout_elements_margin"
         android:onClick="reset"
         android:text="@string/reset" />
 </RelativeLayout>
